@@ -19,101 +19,10 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 10px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
 
-.container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 
-.logo a {
-	color: #fff;
-	font-size: 24px;
-	font-weight: bold;
-	text-decoration: none;
-}
 
-nav {
-	display: flex;
-	align-items: center;
-}
 
-.menu {
-	list-style: none;
-	display: flex;
-}
-
-.menu li {
-	margin-left: 20px;
-}
-
-.menu li a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 16px;
-}
-
-.toggle {
-	color: #fff;
-	font-size: 24px;
-	cursor: pointer;
-	display: none;
-}
-
-@media (max-width: 768px) {
-	.menu {
-		display: none;
-	}
-
-	.toggle {
-		display: block;
-	}
-	
-	.menu.active {
-		display: flex;
-		flex-direction: column;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: 100%;
-		background-color: #333;
-	}
-
-	.menu.active li {
-		margin: 10px;
-	}
-
-	.menu.active li a {
-		font-size: 20px;
-	}
-
-	.toggle.active i:before {
-		content: "\f00d";
-	}
-}
-
-/* Style for carousel indicators */
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #fff;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.carousel-indicators .active {
-  background-color: #000;
-}
 
 /* Style for carousel control icons */
 .carousel-control-prev-icon,
