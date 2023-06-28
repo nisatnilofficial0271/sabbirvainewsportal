@@ -201,6 +201,50 @@ h2 {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 10px;
+	
+.post {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-image {
+    flex: 1;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+
+.post-content {
+    flex: 2;
+    padding: 10px;
+}
+
+.post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-author, .post-date {
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.post-views {
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+
+.post-views img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
 }
 
 footer {
